@@ -6,8 +6,14 @@ package za.ac.cput.MichaelJansen.LabChapter2A;
  */
 public class App 
 {
-    public static void main( String[] args )
+
+    public static float addFloats(float a, float b)
     {
-        System.out.println( "Hello World!" );
+        return a + b;
+    }
+
+    public static int addIntegers(int a, int b)
+    {
+        return a + b;
     }
 }
